@@ -36,11 +36,11 @@ The following arguments are supported:
 
 - [`context_root`](#context_root) -  The context root of the application.
 
-- [`default_auth_type`](#default_auth_type) - ['Web' or 'API']: For Web + API applications (dynamic) defaultAuthType selects the processing mode when a request: does not have a token (web session, OAuth bearer) or has both tokens. This setting applies to all resources in the application except where overridden with defaultAuthTypeOverride.
+- [`default_auth_type`](#default_auth_type) - 'Web' or 'API', For Web + API applications (dynamic) defaultAuthType selects the processing mode when a request: does not have a token (web session, OAuth bearer) or has both tokens. This setting applies to all resources in the application except where overridden with defaultAuthTypeOverride.
 
 - [`description`](#description) - A description of the application.
 
-- [`destination`](#destination) - ['Site' or 'Agent']: The application destination type.
+- [`destination`](#destination) - 'Site' or 'Agent', The application destination type.
 
 - [`enabled`](#enabled) - True if the application is enabled.
 
