@@ -3,7 +3,7 @@
 Provides a application.
 
 ## Example Usage
-```terraform
+```tf
 resource "pingaccess_application" "demo_application" {
   application_type   = "Web"
   name               = "demo"
